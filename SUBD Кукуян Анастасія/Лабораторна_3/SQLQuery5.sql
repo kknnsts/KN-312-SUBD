@@ -1,0 +1,5 @@
+ALTER TABLE Облік_книг
+DROP CONSTRAINT FK_Книга;
+
+ALTER TABLE Облік_книг
+ADD CONSTRAINT FK_Книга FOREIGN KEY (Код_книги) REFERENCES Книга(Код_книги) ON DELETE NO ACTION;

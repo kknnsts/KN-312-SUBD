@@ -1,0 +1,2 @@
+ALTER TABLE ќбл≥к_книг
+DROP CONSTRAINT FK_јвтор;
